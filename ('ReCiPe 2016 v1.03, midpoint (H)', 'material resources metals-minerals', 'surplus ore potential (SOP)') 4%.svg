@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1668.6400146484375" height="1997"><style>
+
+
+/*to make the svg resizable*/ /*
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    /*padding-bottom: 100%; /* aspect ratio */ /*
+    vertical-align: top;
+    /*overflow: hidden;*/ /*
+}
+
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+} */ /*
+
+svg {
+  border: 1px solid #999;
+  /*overflow: hidden;*/ /*
+} */
+
+.canvas {
+  overflow: visible;
+}
+.canvas .wrapper.outer &gt; .background {
+  fill: #FFFFFF;
+}
+.canvas .wrapper.inner &gt; .background {
+  fill: #FFFFFF;
+  cursor: move;
+}
+.canvas .background {
+  fill: #FFFFFF;
+  stroke: #333333;
+  cursor: move;
+}
+.canvas .panCanvas {
+  cursor: click;
+}
+
+.canvas .minimap {
+  stroke: #000000; /* #111111 */
+  stroke-width: 1px;
+}
+
+.canvas .minimap .frame {
+  pointer-events: all;
+}
+
+.canvas .minimap .container {
+  stroke: #000000; /* #111111 */
+  /*stroke-width: 1px;*/
+  /*border: 1px solid #999;*/
+}
+
+.canvas .minimap .frame .background {
+  stroke: #FF0000; /* #111111 */
+  stroke-width: 10px;
+  fill-opacity: 0.1;   /*grey shade of mini-map*/
+  fill: #FFFFFF; /* #FF0000 */
+  /*fill: url(#minimapGradient_qwpyza); */
+  filter: url(#minimapDropShadow_qwpyza);
+  cursor: move;
+  border: 1px solid #999;
+}
+
+/*
+.cluster rect {
+  stroke: #333;
+  fill: #000;
+  fill-opacity: 0.1;
+  stroke-width: 1.5px;
+}*/
+
+h1, h2 {
+  color: #333;
+}
+
+/*textarea {
+  width: 800px;
+}*/
+
+text {
+  font-family: sans-serif;
+  font-size: 14px;
+  /* no effect:
+  text-align: center;
+  word-wrap: break-word;
+  width: 50px;
+  max-width: 60px;
+  */
+}
+
+.activityNameText {
+    color:black;
+    text-align: center;
+}
+.locationText {
+    color: grey;
+    text-align: center;
+    /*font-weight:bold;*/
+}
+.edgeText {
+    color:darkblue;
+    text-align: center;
+}
+
+.node {
+    fill: black;  /* text color of nodes*/
+    /* no effect:
+    white-space: nowrap;
+    */
+}
+
+.node rect {
+  stroke: #333;
+  fill: #fff;
+  stroke-width: 3px;
+}
+
+.node.demand {
+  /*stroke: #333;  */
+  font-weight: bold
+}
+
+.node.demand rect {
+  stroke: darkblue;
+  fill: #fff;
+  stroke-width: 4px;
+}
+
+.node.market rect {
+  stroke: #ed9736;
+  fill: #fff;
+  stroke-width: 3px;
+}
+
+.node.marketgroup rect {
+  stroke: #ffc34c;
+  fill: #fff;
+  stroke-width: 3px;
+}
+
+.node.treatment rect {
+  stroke: #f4425c;
+  fill: #fff;
+  stroke-width: 3px;
+}
+
+/* Edges */
+/*.edgePath path.path {
+  stroke: red;
+  /*fill: darkred; /* Arrow head */
+  /*lineInterpolate: basis;*/
+/*}*/
+
+.edgePath.impact path.path {
+  stroke: red;
+  opacity: 0.7;
+}
+
+.edgePath.benefit path.path {
+  stroke: green;
+  opacity: 0.7;
+}
+
+/* Arrowhead */
+.edgePath path {
+  stroke: none;
+  /*fill: black;*/
+  opacity: 0.3;
+}
+/*.edgePath marker {
+  fill: darkgrey; /* Arrow head */
+  /*opacity: 1;
+}*/
+
+.edgeLabel {
+    fill: darkblue;  /* text color of edges*/
+}
+
+
+
+
+/*.label {
+   /* text color*/
+  /* no effect:
+  margin-top: 30em;
+fill: red;
+  display: block;
+  text-align: right;
+  font: 20px sans-serif;
+  background: #fffce2;
+  padding: 200px; */
+/*}
+
+.edgeLabel {
+   /* text color*/
+  /* no effect:
+  fill: red;
+  margin-top: 30em;
+  display: block;
+  text-align: right;
+  font: 20px sans-serif;
+  background: #fffce2;
+  padding: 200px; */
+/*}*/
+
+.error {
+  color: red;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: left;
+    width: auto;
+    height: auto;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: #fffce2;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    /*color: red;*/
+}</style><g class="wrapper inner" clip-path="url(#wrapperClipPath_qwpyza)" transform="translate(0,0)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><g class="panCanvas"><g class="output"><g class="clusters"/><g class="edgePaths"><g class="edgePath impact" style="opacity: 1;" stroke-width="36.061279822197065"><path class="path" d="M633.52734375,1772L633.52734375,1780.6666666666667C633.52734375,1789.3333333333333,633.52734375,1806.6666666666667,643.0485491071428,1824C652.5697544642857,1841.3333333333333,671.6121651785714,1858.6666666666667,681.1333705357142,1867.3333333333333L690.6545758928571,1876" marker-end="url(#arrowhead5204)" style="fill: none;"/><defs><marker id="arrowhead5204" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="2.115983619091889"><path class="path" d="M833.47265625,1765L833.47265625,1774.8333333333333C833.47265625,1784.6666666666667,833.47265625,1804.3333333333333,823.9514508928572,1822.8333333333333C814.4302455357143,1841.3333333333333,795.3878348214286,1858.6666666666667,785.8666294642858,1867.3333333333333L776.3454241071429,1876" marker-end="url(#arrowhead5205)" style="fill: none;"/><defs><marker id="arrowhead5205" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="4.347210343346496"><path class="path" d="M982.66796875,1583L982.66796875,1592.8333333333333C982.66796875,1602.6666666666667,982.66796875,1622.3333333333333,936.9752604166666,1644.0760125307677C891.2825520833334,1665.8186917282017,799.8971354166666,1689.637383456403,754.2044270833334,1701.546729320504L708.51171875,1713.456075184605" marker-end="url(#arrowhead5206)" style="fill: none;"/><defs><marker id="arrowhead5206" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="30.762949256789128"><path class="path" d="M348.31640625,1590L348.31640625,1598.6666666666667C348.31640625,1607.3333333333333,348.31640625,1624.6666666666667,383.3541666666667,1644.5125546698807C418.3919270833333,1664.3584426730947,488.4674479166667,1686.7168853461892,523.5052083333334,1697.8961066827367L558.54296875,1709.075328019284" marker-end="url(#arrowhead5207)" style="fill: none;"/><defs><marker id="arrowhead5207" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="30.762949256789128"><path class="path" d="M348.31640625,1408L348.31640625,1416.6666666666667C348.31640625,1425.3333333333333,348.31640625,1442.6666666666667,348.31640625,1460C348.31640625,1477.3333333333333,348.31640625,1494.6666666666667,348.31640625,1503.3333333333333L348.31640625,1512" marker-end="url(#arrowhead5208)" style="fill: none;"/><defs><marker id="arrowhead5208" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="12.357277245242209"><path class="path" d="M73.9375,1219L73.9375,1228.8333333333333C73.9375,1238.6666666666667,73.9375,1258.3333333333333,109.45768229166667,1279.9472245554591C144.97786458333334,1301.5611157775847,216.01822916666666,1325.1222315551697,251.53841145833334,1336.902789443962L287.05859375,1348.6833473327545" marker-end="url(#arrowhead5209)" style="fill: none;"/><defs><marker id="arrowhead5209" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="2.4530127329571325"><path class="path" d="M259.453125,1226L259.453125,1234.6666666666667C259.453125,1243.3333333333333,259.453125,1260.6666666666667,267.91629464285717,1278C276.3794642857143,1295.3333333333333,293.30580357142856,1312.6666666666667,301.7689732142857,1321.3333333333333L310.23214285714283,1330" marker-end="url(#arrowhead5210)" style="fill: none;"/><defs><marker id="arrowhead5210" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="2.519193439615611"><path class="path" d="M695.015625,1226L695.015625,1234.6666666666667C695.015625,1243.3333333333333,695.015625,1260.6666666666667,647.4420572916666,1281.820222334892C599.8684895833334,1302.973778003117,504.7213541666667,1327.9475560062344,457.1477864583333,1340.434445007793L409.57421875,1352.9213340093515" marker-end="url(#arrowhead5211)" style="fill: none;"/><defs><marker id="arrowhead5211" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="11.462383040071362"><path class="path" d="M437.1796875,1219L437.1796875,1228.8333333333333C437.1796875,1238.6666666666667,437.1796875,1258.3333333333333,428.7165178571429,1276.8333333333333C420.2533482142857,1295.3333333333333,403.3270089285714,1312.6666666666667,394.8638392857143,1321.3333333333333L386.40066964285717,1330" marker-end="url(#arrowhead5212)" style="fill: none;"/><defs><marker id="arrowhead5212" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="10.935753067840462"><path class="path" d="M73.9375,1030L73.9375,1038.6666666666667C73.9375,1047.3333333333333,73.9375,1064.6666666666667,73.9375,1083.1666666666667C73.9375,1101.6666666666667,73.9375,1121.3333333333333,73.9375,1131.1666666666667L73.9375,1141" marker-end="url(#arrowhead5213)" style="fill: none;"/><defs><marker id="arrowhead5213" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="10.426700450195556"><path class="path" d="M437.1796875,1030L437.1796875,1038.6666666666667C437.1796875,1047.3333333333333,437.1796875,1064.6666666666667,437.1796875,1083.1666666666667C437.1796875,1101.6666666666667,437.1796875,1121.3333333333333,437.1796875,1131.1666666666667L437.1796875,1141" marker-end="url(#arrowhead5214)" style="fill: none;"/><defs><marker id="arrowhead5214" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="0.24703512471810207"><path class="path" d="M533.25,825.2461364626123L488.634765625,836.5384470521768C444.01953125,847.8307576417416,354.7890625,870.4153788208708,290.5598958333333,891.0222580918474C226.33072916666666,911.629137362824,187.10286458333334,930.258274725648,167.48893229166666,939.5728434070601L147.875,948.8874120884722" marker-end="url(#arrowhead5215)" style="fill: none;"/><defs><marker id="arrowhead5215" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="10.606447742119983"><path class="path" d="M200.6875,496.4872580954206L166.41927083333334,506.57271507951714C132.15104166666666,516.6581720636137,63.614583333333336,536.8290860318069,29.346354166666668,560.9145430159034C-4.921875,585,-4.921875,613,-4.921875,641C-4.921875,669,-4.921875,697,-4.921875,725C-4.921875,753,-4.921875,781,-4.921875,809C-4.921875,837,-4.921875,865,1.577524038461539,886.5C8.076923076923078,908,21.075721153846157,923,27.575120192307693,930.5L34.07451923076923,938" marker-end="url(#arrowhead5216)" style="fill: none;"/><defs><marker id="arrowhead5216" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="31.709830667850962"><path class="path" d="M280.4921875,344L280.4921875,351.5C280.4921875,359,280.4921875,374,280.4921875,389C280.4921875,404,280.4921875,419,280.4921875,426.5L280.4921875,434" marker-end="url(#arrowhead5217)" style="fill: none;"/><defs><marker id="arrowhead5217" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="31.70728148725557"><path class="path" d="M280.4921875,106L280.4921875,115.83333333333333C280.4921875,125.66666666666667,280.4921875,145.33333333333334,280.4921875,165C280.4921875,184.66666666666666,280.4921875,204.33333333333334,280.4921875,214.16666666666666L280.4921875,224" marker-end="url(#arrowhead5218)" style="fill: none;"/><defs><marker id="arrowhead5218" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="8.892455981523975"><path class="path" d="M597.4375,680L597.4375,687.5C597.4375,695,597.4375,710,597.4375,725C597.4375,740,597.4375,755,597.4375,762.5L597.4375,770" marker-end="url(#arrowhead5219)" style="fill: none;"/><defs><marker id="arrowhead5219" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="0.208896613781228"><path class="path" d="M563.9907924107143,848L557.5587332589286,855.5C551.1266741071429,863,538.2625558035714,878,524.5597205528846,893C510.8568853021978,908,496.3153331043956,923,489.0445570054945,930.5L481.7737809065934,938" marker-end="url(#arrowhead5220)" style="fill: none;"/><defs><marker id="arrowhead5220" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="10.129050471081145"><path class="path" d="M264.2730189732143,512L261.15394810267856,519.5C258.03487723214283,527,251.79673549107142,542,248.6776646205357,563.5C245.55859375,585,245.55859375,613,245.55859375,641C245.55859375,669,245.55859375,697,245.55859375,725C245.55859375,753,245.55859375,781,245.55859375,809C245.55859375,837,245.55859375,865,266.470703125,888.9310671695035C287.3828125,912.8621343390072,329.20703125,932.7242686780145,350.119140625,942.655335847518L371.03125,952.5864030170217" marker-end="url(#arrowhead5221)" style="fill: none;"/><defs><marker id="arrowhead5221" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="8.82374787823871"><path class="path" d="M360.296875,494.1506322561562L399.8203125,504.62552688013017C439.34375,515.1004215041041,518.390625,536.0502107520521,557.9140625,554.0251053760261C597.4375,572,597.4375,587,597.4375,594.5L597.4375,602" marker-end="url(#arrowhead5222)" style="fill: none;"/><defs><marker id="arrowhead5222" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="4.347210343346496"><path class="path" d="M982.66796875,1401L982.66796875,1410.8333333333333C982.66796875,1420.6666666666667,982.66796875,1440.3333333333333,982.66796875,1460C982.66796875,1479.6666666666667,982.66796875,1499.3333333333333,982.66796875,1509.1666666666667L982.66796875,1519" marker-end="url(#arrowhead5223)" style="fill: none;"/><defs><marker id="arrowhead5223" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="2.351413093202867"><path class="path" d="M875.8515625,1219L875.8515625,1228.8333333333333C875.8515625,1238.6666666666667,875.8515625,1258.3333333333333,887.3939946771978,1278C898.9364268543956,1297.6666666666667,922.0212912087912,1317.3333333333333,933.563723385989,1327.1666666666667L945.1061555631868,1337" marker-end="url(#arrowhead5224)" style="fill: none;"/><defs><marker id="arrowhead5224" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="1.62881300475474"><path class="path" d="M1082.640625,1219L1082.640625,1228.8333333333333C1082.640625,1238.6666666666667,1082.640625,1258.3333333333333,1071.8377189217033,1278C1061.0348128434066,1297.6666666666667,1039.4290006868132,1317.3333333333333,1028.6260946085165,1327.1666666666667L1017.8231885302198,1337" marker-end="url(#arrowhead5225)" style="fill: none;"/><defs><marker id="arrowhead5225" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="2.5141036423432874"><path class="path" d="M695.015625,1030L695.015625,1038.6666666666667C695.015625,1047.3333333333333,695.015625,1064.6666666666667,695.015625,1082C695.015625,1099.3333333333333,695.015625,1116.6666666666667,695.015625,1125.3333333333333L695.015625,1134" marker-end="url(#arrowhead5226)" style="fill: none;"/><defs><marker id="arrowhead5226" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="2.3023633312612772"><path class="path" d="M642.7416294642857,848L651.4539620535714,855.5C660.1662946428571,863,677.5909598214286,878,686.3032924107143,893C695.015625,908,695.015625,923,695.015625,930.5L695.015625,938" marker-end="url(#arrowhead5227)" style="fill: none;"/><defs><marker id="arrowhead5227" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(703.51171875,1824)" style="opacity: 1;"><g transform="translate(-64.984375,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">Paper Products Total</tspan><tspan xml:space="preserve" dy="1em" x="1">2.1</tspan><tspan xml:space="preserve" dy="1em" x="1">(90.2%)</tspan></text></g></g><g class="edgeLabel" transform="translate(903.43359375,1824)" style="opacity: 1;"><g transform="translate(-64.9609375,-15)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">Wood Products Total</tspan><tspan xml:space="preserve" dy="1em" x="1">(5.29%)</tspan></text></g></g><g class="edgeLabel" transform="translate(1059.36328125,1642)" style="opacity: 1;"><g transform="translate(-71.6953125,-15)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">Cardboard Mix Bavaria</tspan><tspan xml:space="preserve" dy="1em" x="1">(10.9%)</tspan></text></g></g><g class="edgeLabel" transform="translate(404.57421875,1642)" style="opacity: 1;"><g transform="translate(-51.2578125,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">Graphical Paper</tspan><tspan xml:space="preserve" dy="1em" x="1">Mix Bavaria</tspan><tspan xml:space="preserve" dy="1em" x="1">(76.9%)</tspan></text></g></g><g class="edgeLabel" transform="translate(404.57421875,1460)" style="opacity: 1;"><g transform="translate(-51.2578125,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">Graphical Paper</tspan><tspan xml:space="preserve" dy="1em" x="1">Mix</tspan><tspan xml:space="preserve" dy="1em" x="1">(76.9%)</tspan></text></g></g><g class="edgeLabel" transform="translate(131.0859375,1278)" style="opacity: 1;"><g transform="translate(-52.1484375,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">paper, woodfree,</tspan><tspan xml:space="preserve" dy="1em" x="1">uncoated</tspan><tspan xml:space="preserve" dy="1em" x="1">(30.9%)</tspan></text></g></g><g class="edgeLabel" transform="translate(336.453125,1278)" style="opacity: 1;"><g transform="translate(-72,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">paper, woodcontaining,</tspan><tspan xml:space="preserve" dy="1em" x="1">supercalendered</tspan><tspan xml:space="preserve" dy="1em" x="1">(6.13%)</tspan></text></g></g><g class="edgeLabel" transform="translate(772.015625,1278)" style="opacity: 1;"><g transform="translate(-72,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">paper, woodcontaining,</tspan><tspan xml:space="preserve" dy="1em" x="1">lightweight coated</tspan><tspan xml:space="preserve" dy="1em" x="1">(6.30%)</tspan></text></g></g><g class="edgeLabel" transform="translate(494.328125,1278)" style="opacity: 1;"><g transform="translate(-52.1484375,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">paper, woodfree,</tspan><tspan xml:space="preserve" dy="1em" x="1">coated</tspan><tspan xml:space="preserve" dy="1em" x="1">(28.7%)</tspan></text></g></g><g class="edgeLabel" transform="translate(131.0859375,1082)" style="opacity: 1;"><g transform="translate(-52.1484375,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">paper, woodfree,</tspan><tspan xml:space="preserve" dy="1em" x="1">uncoated</tspan><tspan xml:space="preserve" dy="1em" x="1">(27.3%)</tspan></text></g></g><g class="edgeLabel" transform="translate(494.328125,1082)" style="opacity: 1;"><g transform="translate(-52.1484375,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">paper, woodfree,</tspan><tspan xml:space="preserve" dy="1em" x="1">coated</tspan><tspan xml:space="preserve" dy="1em" x="1">(26.1%)</tspan></text></g></g><g class="edgeLabel" transform="translate(338.77734375,893)" style="opacity: 1;"><g transform="translate(-68.21875,-15)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">sulfate pulp, bleached</tspan><tspan xml:space="preserve" dy="1em" x="1">(0.618%)</tspan></text></g></g><g class="edgeLabel" transform="translate(58.9375,725)" style="opacity: 1;"><g transform="translate(-58.859375,-15)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">magnesium sulfate</tspan><tspan xml:space="preserve" dy="1em" x="1">(26.5%)</tspan></text></g></g><g class="edgeLabel" transform="translate(344.3515625,389)" style="opacity: 1;"><g transform="translate(-58.859375,-15)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">magnesium sulfate</tspan><tspan xml:space="preserve" dy="1em" x="1">(79.3%)</tspan></text></g></g><g class="edgeLabel" transform="translate(339.9765625,165)" style="opacity: 1;"><g transform="translate(-54.484375,-29)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">rare earth oxide</tspan><tspan xml:space="preserve" dy="1em" x="1">concentrate, 50%</tspan><tspan xml:space="preserve" dy="1em" x="1">REO</tspan><tspan xml:space="preserve" dy="1em" x="1">(79.3%)</tspan></text></g></g><g class="edgeLabel" transform="translate(670.65625,725)" style="opacity: 1;"><g transform="translate(-68.21875,-15)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">sulfate pulp, bleached</tspan><tspan xml:space="preserve" dy="1em" x="1">(22.2%)</tspan></text></g></g><g class="edgeLabel" transform="translate(598.6171875,893)" style="opacity: 1;"><g transform="translate(-68.21875,-15)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">sulfate pulp, bleached</tspan><tspan xml:space="preserve" dy="1em" x="1">(0.522%)</tspan></text></g></g><g class="edgeLabel" transform="translate(309.41796875,725)" style="opacity: 1;"><g transform="translate(-58.859375,-15)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">magnesium sulfate</tspan><tspan xml:space="preserve" dy="1em" x="1">(25.3%)</tspan></text></g></g><g class="edgeLabel" transform="translate(661.296875,557)" style="opacity: 1;"><g transform="translate(-58.859375,-15)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">magnesium sulfate</tspan><tspan xml:space="preserve" dy="1em" x="1">(22.1%)</tspan></text></g></g><g class="edgeLabel" transform="translate(1034.08203125,1460)" style="opacity: 1;"><g transform="translate(-46.4140625,-15)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">Cardboard Mix</tspan><tspan xml:space="preserve" dy="1em" x="1">(10.9%)</tspan></text></g></g><g class="edgeLabel" transform="translate(933.2265625,1278)" style="opacity: 1;"><g transform="translate(-52.375,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">folding boxboard</tspan><tspan xml:space="preserve" dy="1em" x="1">carton</tspan><tspan xml:space="preserve" dy="1em" x="1">(5.88%)</tspan></text></g></g><g class="edgeLabel" transform="translate(1136.7890625,1278)" style="opacity: 1;"><g transform="translate(-49.1484375,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">containerboard,</tspan><tspan xml:space="preserve" dy="1em" x="1">fluting medium</tspan><tspan xml:space="preserve" dy="1em" x="1">(4.07%)</tspan></text></g></g><g class="edgeLabel" transform="translate(772.015625,1082)" style="opacity: 1;"><g transform="translate(-72,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">paper, woodcontaining,</tspan><tspan xml:space="preserve" dy="1em" x="1">lightweight coated</tspan><tspan xml:space="preserve" dy="1em" x="1">(6.29%)</tspan></text></g></g><g class="edgeLabel" transform="translate(768.234375,893)" style="opacity: 1;"><g transform="translate(-68.21875,-15)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">sulfate pulp, bleached</tspan><tspan xml:space="preserve" dy="1em" x="1">(5.76%)</tspan></text></g></g></g><g class="nodes"><g class="node demand" id="09f0b23a200b4a8d8b0fca813721a5aa" transform="translate(733.5,1915)" style="opacity: 1;"><rect rx="0" ry="0" x="-90.4921875" y="-39" width="180.984375" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-80.4921875,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">0 Wood Based Products</tspan><tspan xml:space="preserve" dy="1em" x="1">Total</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="efec900e3558434abde7d3ee68e11d55" transform="translate(633.52734375,1733)" style="opacity: 1;"><rect rx="0" ry="0" x="-74.984375" y="-39" width="149.96875" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-64.984375,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">Paper Products Total</tspan><tspan xml:space="preserve" dy="1em" x="1">2.1</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="511f4df88e8746c28eba4ba9a6089b0f" transform="translate(833.47265625,1733)" style="opacity: 1;"><rect rx="0" ry="0" x="-74.9609375" y="-32" width="149.921875" height="64" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-64.9609375,-22)"><text><tspan xml:space="preserve" dy="1em" x="1">Wood Products Total</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="7815b9dfcfce45c786da527b3953f686" transform="translate(982.66796875,1551)" style="opacity: 1;"><rect rx="0" ry="0" x="-81.6953125" y="-32" width="163.390625" height="64" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-71.6953125,-22)"><text><tspan xml:space="preserve" dy="1em" x="1">Cardboard Mix Bavaria</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="9bbb0481faa8422a97e2ee992f1a050e" transform="translate(348.31640625,1551)" style="opacity: 1;"><rect rx="0" ry="0" x="-61.2578125" y="-39" width="122.515625" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-51.2578125,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">Graphical Paper</tspan><tspan xml:space="preserve" dy="1em" x="1">Mix Bavaria</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="54f1d7f706a4452dba66d8209a76215e" transform="translate(348.31640625,1369)" style="opacity: 1;"><rect rx="0" ry="0" x="-61.2578125" y="-39" width="122.515625" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-51.2578125,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">Graphical Paper</tspan><tspan xml:space="preserve" dy="1em" x="1">Mix</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="489fbe5a1299973271f08df81a9f63bc_copy1" transform="translate(73.9375,1180)" style="opacity: 1;"><rect rx="0" ry="0" x="-72.1015625" y="-39" width="144.203125" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-62.1015625,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">market for paper,</tspan><tspan xml:space="preserve" dy="1em" x="1">woodfree, uncoated</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="009900f9a94cb0e59fe23367510fd5ea_copy1" transform="translate(259.453125,1180)" style="opacity: 1;"><rect rx="0" ry="0" x="-63.4140625" y="-46" width="126.828125" height="92" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-53.4140625,-36)"><text><tspan xml:space="preserve" dy="1em" x="1">market for paper,</tspan><tspan xml:space="preserve" dy="1em" x="1">woodcontaining,</tspan><tspan xml:space="preserve" dy="1em" x="1">supercalendered</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="d7499ddf8138ff5183e068df563c0654_copy1" transform="translate(695.015625,1180)" style="opacity: 1;"><rect rx="0" ry="0" x="-66.6484375" y="-46" width="133.296875" height="92" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-56.6484375,-36)"><text><tspan xml:space="preserve" dy="1em" x="1">market for paper,</tspan><tspan xml:space="preserve" dy="1em" x="1">woodcontaining,</tspan><tspan xml:space="preserve" dy="1em" x="1">lightweight coated</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="39ff41216f852817bcd68bfc95d61acd_copy1" transform="translate(437.1796875,1180)" style="opacity: 1;"><rect rx="0" ry="0" x="-64.3125" y="-39" width="128.625" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-54.3125,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">market for paper,</tspan><tspan xml:space="preserve" dy="1em" x="1">woodfree, coated</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="3965270b787c51595f466349faa492e4" transform="translate(73.9375,984)" style="opacity: 1;"><rect rx="0" ry="0" x="-73.9375" y="-46" width="147.875" height="92" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-63.9375,-36)"><text><tspan xml:space="preserve" dy="1em" x="1">paper production,</tspan><tspan xml:space="preserve" dy="1em" x="1">woodfree, uncoated,</tspan><tspan xml:space="preserve" dy="1em" x="1">at integrated mill</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="1a8b79adce064b9a10639c333d3f4df2" transform="translate(437.1796875,984)" style="opacity: 1;"><rect rx="0" ry="0" x="-66.1484375" y="-46" width="132.296875" height="92" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-56.1484375,-36)"><text><tspan xml:space="preserve" dy="1em" x="1">paper production,</tspan><tspan xml:space="preserve" dy="1em" x="1">woodfree, coated,</tspan><tspan xml:space="preserve" dy="1em" x="1">at integrated mill</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="f7a53c58a2c18aad8d59721323cede31" transform="translate(597.4375,809)" style="opacity: 1;"><rect rx="0" ry="0" x="-64.1875" y="-39" width="128.375" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-54.1875,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">market for sulfate</tspan><tspan xml:space="preserve" dy="1em" x="1">pulp, bleached</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="6cb80e4a9eecd6fb5ccab5e2016e155f" transform="translate(280.4921875,473)" style="opacity: 1;"><rect rx="0" ry="0" x="-79.8046875" y="-39" width="159.609375" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-69.8046875,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">market for magnesium</tspan><tspan xml:space="preserve" dy="1em" x="1">sulfate</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="6c656b1825deab00a2b0a4b7c8c7fb7c" transform="translate(280.4921875,284)" style="opacity: 1;"><rect rx="0" ry="0" x="-64.484375" y="-60" width="128.96875" height="120" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-54.484375,-50)"><text><tspan xml:space="preserve" dy="1em" x="1">rare earth oxides</tspan><tspan xml:space="preserve" dy="1em" x="1">production, from</tspan><tspan xml:space="preserve" dy="1em" x="1">rare earth oxide</tspan><tspan xml:space="preserve" dy="1em" x="1">concentrate, 50%</tspan><tspan xml:space="preserve" dy="1em" x="1">REO</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="6563476c61cf2c0cd73d961ea6b671d5" transform="translate(280.4921875,53)" style="opacity: 1;"><rect rx="0" ry="0" x="-89.109375" y="-53" width="178.21875" height="106" style="fill: rgb(255, 47, 47);"/><g class="label" transform="translate(0,0)"><g transform="translate(-79.109375,-43)"><text><tspan xml:space="preserve" dy="1em" x="1">rare earth element</tspan><tspan xml:space="preserve" dy="1em" x="1">mine operation and</tspan><tspan xml:space="preserve" dy="1em" x="1">beneficiation, bastnaesite</tspan><tspan xml:space="preserve" dy="1em" x="1">and monazite ore</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(82%)</tspan></text></g></g></g><g class="node production" id="742f26e173550a3768499b0b8fcf91af" transform="translate(597.4375,641)" style="opacity: 1;"><rect rx="0" ry="0" x="-86.875" y="-39" width="173.75" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-76.875,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">sulfate pulp production,</tspan><tspan xml:space="preserve" dy="1em" x="1">from softwood, bleached</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="af4ea45bbff64990a4db9b3a67194c31" transform="translate(982.66796875,1369)" style="opacity: 1;"><rect rx="0" ry="0" x="-56.4140625" y="-32" width="112.828125" height="64" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-46.4140625,-22)"><text><tspan xml:space="preserve" dy="1em" x="1">Cardboard Mix</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="64604a71a8dac867e992ee6ea9126144_copy1" transform="translate(875.8515625,1180)" style="opacity: 1;"><rect rx="0" ry="0" x="-64.1875" y="-39" width="128.375" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-54.1875,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">market for folding</tspan><tspan xml:space="preserve" dy="1em" x="1">boxboard carton</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="647f327fc12cbbdd9e049793ec37e068_copy1" transform="translate(1082.640625,1180)" style="opacity: 1;"><rect rx="0" ry="0" x="-92.6015625" y="-39" width="185.203125" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-82.6015625,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">market for containerboard,</tspan><tspan xml:space="preserve" dy="1em" x="1">fluting medium</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="a2705b148b3e4fa134bca6ac46ac7f6e" transform="translate(695.015625,984)" style="opacity: 1;"><rect rx="0" ry="0" x="-66.6484375" y="-46" width="133.296875" height="92" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-56.6484375,-36)"><text><tspan xml:space="preserve" dy="1em" x="1">paper production,</tspan><tspan xml:space="preserve" dy="1em" x="1">woodcontaining,</tspan><tspan xml:space="preserve" dy="1em" x="1">lightweight coated</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g></g></g></g></g></svg>

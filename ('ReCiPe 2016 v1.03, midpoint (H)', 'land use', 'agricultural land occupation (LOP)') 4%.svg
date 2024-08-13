@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1659.239990234375" height="1464"><style>
+
+
+/*to make the svg resizable*/ /*
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    /*padding-bottom: 100%; /* aspect ratio */ /*
+    vertical-align: top;
+    /*overflow: hidden;*/ /*
+}
+
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+} */ /*
+
+svg {
+  border: 1px solid #999;
+  /*overflow: hidden;*/ /*
+} */
+
+.canvas {
+  overflow: visible;
+}
+.canvas .wrapper.outer &gt; .background {
+  fill: #FFFFFF;
+}
+.canvas .wrapper.inner &gt; .background {
+  fill: #FFFFFF;
+  cursor: move;
+}
+.canvas .background {
+  fill: #FFFFFF;
+  stroke: #333333;
+  cursor: move;
+}
+.canvas .panCanvas {
+  cursor: click;
+}
+
+.canvas .minimap {
+  stroke: #000000; /* #111111 */
+  stroke-width: 1px;
+}
+
+.canvas .minimap .frame {
+  pointer-events: all;
+}
+
+.canvas .minimap .container {
+  stroke: #000000; /* #111111 */
+  /*stroke-width: 1px;*/
+  /*border: 1px solid #999;*/
+}
+
+.canvas .minimap .frame .background {
+  stroke: #FF0000; /* #111111 */
+  stroke-width: 10px;
+  fill-opacity: 0.1;   /*grey shade of mini-map*/
+  fill: #FFFFFF; /* #FF0000 */
+  /*fill: url(#minimapGradient_qwpyza); */
+  filter: url(#minimapDropShadow_qwpyza);
+  cursor: move;
+  border: 1px solid #999;
+}
+
+/*
+.cluster rect {
+  stroke: #333;
+  fill: #000;
+  fill-opacity: 0.1;
+  stroke-width: 1.5px;
+}*/
+
+h1, h2 {
+  color: #333;
+}
+
+/*textarea {
+  width: 800px;
+}*/
+
+text {
+  font-family: sans-serif;
+  font-size: 14px;
+  /* no effect:
+  text-align: center;
+  word-wrap: break-word;
+  width: 50px;
+  max-width: 60px;
+  */
+}
+
+.activityNameText {
+    color:black;
+    text-align: center;
+}
+.locationText {
+    color: grey;
+    text-align: center;
+    /*font-weight:bold;*/
+}
+.edgeText {
+    color:darkblue;
+    text-align: center;
+}
+
+.node {
+    fill: black;  /* text color of nodes*/
+    /* no effect:
+    white-space: nowrap;
+    */
+}
+
+.node rect {
+  stroke: #333;
+  fill: #fff;
+  stroke-width: 3px;
+}
+
+.node.demand {
+  /*stroke: #333;  */
+  font-weight: bold
+}
+
+.node.demand rect {
+  stroke: darkblue;
+  fill: #fff;
+  stroke-width: 4px;
+}
+
+.node.market rect {
+  stroke: #ed9736;
+  fill: #fff;
+  stroke-width: 3px;
+}
+
+.node.marketgroup rect {
+  stroke: #ffc34c;
+  fill: #fff;
+  stroke-width: 3px;
+}
+
+.node.treatment rect {
+  stroke: #f4425c;
+  fill: #fff;
+  stroke-width: 3px;
+}
+
+/* Edges */
+/*.edgePath path.path {
+  stroke: red;
+  /*fill: darkred; /* Arrow head */
+  /*lineInterpolate: basis;*/
+/*}*/
+
+.edgePath.impact path.path {
+  stroke: red;
+  opacity: 0.7;
+}
+
+.edgePath.benefit path.path {
+  stroke: green;
+  opacity: 0.7;
+}
+
+/* Arrowhead */
+.edgePath path {
+  stroke: none;
+  /*fill: black;*/
+  opacity: 0.3;
+}
+/*.edgePath marker {
+  fill: darkgrey; /* Arrow head */
+  /*opacity: 1;
+}*/
+
+.edgeLabel {
+    fill: darkblue;  /* text color of edges*/
+}
+
+
+
+
+/*.label {
+   /* text color*/
+  /* no effect:
+  margin-top: 30em;
+fill: red;
+  display: block;
+  text-align: right;
+  font: 20px sans-serif;
+  background: #fffce2;
+  padding: 200px; */
+/*}
+
+.edgeLabel {
+   /* text color*/
+  /* no effect:
+  fill: red;
+  margin-top: 30em;
+  display: block;
+  text-align: right;
+  font: 20px sans-serif;
+  background: #fffce2;
+  padding: 200px; */
+/*}*/
+
+.error {
+  color: red;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: left;
+    width: auto;
+    height: auto;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: #fffce2;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    /*color: red;*/
+}</style><g class="wrapper inner" clip-path="url(#wrapperClipPath_qwpyza)" transform="translate(0,0)" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><g class="panCanvas"><g class="output"><g class="clusters"/><g class="edgePaths"><g class="edgePath impact" style="opacity: 1;" stroke-width="6.524283091599684"><path class="path" d="M178.171875,1282L178.171875,1290.6666666666667C178.171875,1299.3333333333333,178.171875,1316.6666666666667,212.00846354166666,1335.82398621222C245.84505208333334,1354.9813057577733,313.5182291666667,1375.9626115155468,347.3548177083333,1386.4532643944333L381.19140625,1396.94391727332" marker-end="url(#arrowhead4962)" style="fill: none;"/><defs><marker id="arrowhead4962" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="20.49073847400169"><path class="path" d="M471.68359375,1275L471.68359375,1284.8333333333333C471.68359375,1294.6666666666667,471.68359375,1314.3333333333333,471.68359375,1332.8333333333333C471.68359375,1351.3333333333333,471.68359375,1368.6666666666667,471.68359375,1377.3333333333333L471.68359375,1386" marker-end="url(#arrowhead4963)" style="fill: none;"/><defs><marker id="arrowhead4963" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="12.921083043205229"><path class="path" d="M872.83203125,1282L872.83203125,1290.6666666666667C872.83203125,1299.3333333333333,872.83203125,1316.6666666666667,821.0559895833334,1337.0786608760006C769.2799479166666,1357.4906550853345,665.7278645833334,1380.9813101706688,613.9518229166666,1392.7266377133362L562.17578125,1404.4719652560034" marker-end="url(#arrowhead4964)" style="fill: none;"/><defs><marker id="arrowhead4964" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="15.598978316425287"><path class="path" d="M471.68359375,1093L471.68359375,1102.8333333333333C471.68359375,1112.6666666666667,471.68359375,1132.3333333333333,471.68359375,1152C471.68359375,1171.6666666666667,471.68359375,1191.3333333333333,471.68359375,1201.1666666666667L471.68359375,1211" marker-end="url(#arrowhead4965)" style="fill: none;"/><defs><marker id="arrowhead4965" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="15.598978316425292"><path class="path" d="M471.68359375,911L471.68359375,920.8333333333334C471.68359375,930.6666666666666,471.68359375,950.3333333333334,471.68359375,970C471.68359375,989.6666666666666,471.68359375,1009.3333333333334,471.68359375,1019.1666666666666L471.68359375,1029" marker-end="url(#arrowhead4966)" style="fill: none;"/><defs><marker id="arrowhead4966" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="3.0218719578828974"><path class="path" d="M681.90625,1100L681.90625,1108.6666666666667C681.90625,1117.3333333333333,681.90625,1134.6666666666667,700.0896577380953,1152C718.2730654761905,1169.3333333333333,754.6398809523811,1186.6666666666667,772.8232886904761,1195.3333333333333L791.0066964285714,1204" marker-end="url(#arrowhead4967)" style="fill: none;"/><defs><marker id="arrowhead4967" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="1.9018581477144947"><path class="path" d="M875.7421875,1100L875.7421875,1108.6666666666667C875.7421875,1117.3333333333333,875.7421875,1134.6666666666667,875.4650297619047,1152C875.1878720238095,1169.3333333333333,874.6335565476189,1186.6666666666667,874.3563988095237,1195.3333333333333L874.0792410714286,1204" marker-end="url(#arrowhead4968)" style="fill: none;"/><defs><marker id="arrowhead4968" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="7.997352937607837"><path class="path" d="M1090.09765625,1100L1090.09765625,1108.6666666666667C1090.09765625,1117.3333333333333,1090.09765625,1134.6666666666667,1068.84765625,1152.2337288745055C1047.59765625,1169.8007910823444,1005.09765625,1187.601582164689,983.84765625,1196.5019777058612L962.59765625,1205.4023732470334" marker-end="url(#arrowhead4969)" style="fill: none;"/><defs><marker id="arrowhead4969" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="7.032608170337725"><path class="path" d="M1090.09765625,911L1090.09765625,920.8333333333334C1090.09765625,930.6666666666666,1090.09765625,950.3333333333334,1090.09765625,968.8333333333334C1090.09765625,987.3333333333334,1090.09765625,1004.6666666666666,1090.09765625,1013.3333333333334L1090.09765625,1022" marker-end="url(#arrowhead4970)" style="fill: none;"/><defs><marker id="arrowhead4970" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="7.032608170337725"><path class="path" d="M1090.09765625,708L1090.09765625,721.3333333333334C1090.09765625,734.6666666666666,1090.09765625,761.3333333333334,1090.09765625,784.5C1090.09765625,807.6666666666666,1090.09765625,827.3333333333334,1090.09765625,837.1666666666666L1090.09765625,847" marker-end="url(#arrowhead4971)" style="fill: none;"/><defs><marker id="arrowhead4971" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="4.757674243323654"><path class="path" d="M977.51953125,491L977.51953125,502C977.51953125,513,977.51953125,535,991.2370338760505,560.5C1004.9545365021008,586,1032.3895417542017,615,1046.107044380252,629.5L1059.8245470063025,644" marker-end="url(#arrowhead4972)" style="fill: none;"/><defs><marker id="arrowhead4972" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="1.6931421771342647"><path class="path" d="M1195.26171875,498L1195.26171875,507.8333333333333C1195.26171875,517.6666666666666,1195.26171875,537.3333333333334,1182.4476102941178,561.6666666666666C1169.6335018382354,586,1144.0052849264705,615,1131.1911764705883,629.5L1118.3770680147059,644" marker-end="url(#arrowhead4973)" style="fill: none;"/><defs><marker id="arrowhead4973" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="2.2870275521452044"><path class="path" d="M81.6953125,1093L81.6953125,1102.8333333333333C81.6953125,1112.6666666666667,81.6953125,1132.3333333333333,90.88355654761904,1150.8333333333333C100.07180059523809,1169.3333333333333,118.44828869047619,1186.6666666666667,127.63653273809523,1195.3333333333333L136.82477678571428,1204" marker-end="url(#arrowhead4974)" style="fill: none;"/><defs><marker id="arrowhead4974" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="3.236190586109837"><path class="path" d="M274.6484375,1100L274.6484375,1108.6666666666667C274.6484375,1117.3333333333333,274.6484375,1134.6666666666667,265.46019345238096,1152C256.2719494047619,1169.3333333333333,237.89546130952382,1186.6666666666667,228.7072172619048,1195.3333333333333L219.51897321428572,1204" marker-end="url(#arrowhead4975)" style="fill: none;"/><defs><marker id="arrowhead4975" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="4.5574021292754345"><path class="path" d="M977.51953125,288L977.51953125,296.6666666666667C977.51953125,305.3333333333333,977.51953125,322.6666666666667,977.51953125,341.1666666666667C977.51953125,359.6666666666667,977.51953125,379.3333333333333,977.51953125,389.1666666666667L977.51953125,399" marker-end="url(#arrowhead4976)" style="fill: none;"/><defs><marker id="arrowhead4976" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="1.6637195468203734"><path class="path" d="M977.51953125,92L977.51953125,100.66666666666667C977.51953125,109.33333333333333,977.51953125,126.66666666666667,977.51953125,144C977.51953125,161.33333333333334,977.51953125,178.66666666666666,977.51953125,187.33333333333334L977.51953125,196" marker-end="url(#arrowhead4977)" style="fill: none;"/><defs><marker id="arrowhead4977" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="3.236190586109837"><path class="path" d="M274.6484375,918L274.6484375,926.6666666666666C274.6484375,935.3333333333334,274.6484375,952.6666666666666,274.6484375,970C274.6484375,987.3333333333334,274.6484375,1004.6666666666666,274.6484375,1013.3333333333334L274.6484375,1022" marker-end="url(#arrowhead4978)" style="fill: none;"/><defs><marker id="arrowhead4978" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="1.9122941144908832"><path class="path" d="M681.90625,918L681.90625,926.6666666666666C681.90625,935.3333333333334,681.90625,952.6666666666666,681.90625,970C681.90625,987.3333333333334,681.90625,1004.6666666666666,681.90625,1013.3333333333334L681.90625,1022" marker-end="url(#arrowhead4979)" style="fill: none;"/><defs><marker id="arrowhead4979" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="2.2870275521452044"><path class="path" d="M81.6953125,911L81.6953125,920.8333333333334C81.6953125,930.6666666666666,81.6953125,950.3333333333334,81.6953125,970C81.6953125,989.6666666666666,81.6953125,1009.3333333333334,81.6953125,1019.1666666666666L81.6953125,1029" marker-end="url(#arrowhead4980)" style="fill: none;"/><defs><marker id="arrowhead4980" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="1.9122941144908832"><path class="path" d="M681.90625,736L681.90625,744.6666666666666C681.90625,753.3333333333334,681.90625,770.6666666666666,681.90625,788C681.90625,805.3333333333334,681.90625,822.6666666666666,681.90625,831.3333333333334L681.90625,840" marker-end="url(#arrowhead4981)" style="fill: none;"/><defs><marker id="arrowhead4981" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="1.9114836636380965"><path class="path" d="M681.90625,491L681.90625,502C681.90625,513,681.90625,535,681.90625,555.8333333333334C681.90625,576.6666666666666,681.90625,596.3333333333334,681.90625,606.1666666666666L681.90625,616" marker-end="url(#arrowhead4982)" style="fill: none;"/><defs><marker id="arrowhead4982" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="1.7327622799864242"><path class="path" d="M875.7421875,918L875.7421875,926.6666666666666C875.7421875,935.3333333333334,875.7421875,952.6666666666666,875.7421875,970C875.7421875,987.3333333333334,875.7421875,1004.6666666666666,875.7421875,1013.3333333333334L875.7421875,1022" marker-end="url(#arrowhead4983)" style="fill: none;"/><defs><marker id="arrowhead4983" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="1.732762279986424"><path class="path" d="M875.7421875,715L875.7421875,727.1666666666666C875.7421875,739.3333333333334,875.7421875,763.6666666666666,875.7421875,784.5C875.7421875,805.3333333333334,875.7421875,822.6666666666666,875.7421875,831.3333333333334L875.7421875,840" marker-end="url(#arrowhead4984)" style="fill: none;"/><defs><marker id="arrowhead4984" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g><g class="edgePath impact" style="opacity: 1;" stroke-width="1.6923349022512428"><path class="path" d="M1195.26171875,288L1195.26171875,296.6666666666667C1195.26171875,305.3333333333333,1195.26171875,322.6666666666667,1195.26171875,340C1195.26171875,357.3333333333333,1195.26171875,374.6666666666667,1195.26171875,383.3333333333333L1195.26171875,392" marker-end="url(#arrowhead4985)" style="fill: none;"/><defs><marker id="arrowhead4985" viewBox="0 0 60 60" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(248.15625,1334)" style="opacity: 1;"><g transform="translate(-64.984375,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">Paper Products Total</tspan><tspan xml:space="preserve" dy="1em" x="1">2.1</tspan><tspan xml:space="preserve" dy="1em" x="1">(16.3%)</tspan></text></g></g><g class="edgeLabel" transform="translate(541.64453125,1334)" style="opacity: 1;"><g transform="translate(-64.9609375,-15)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">Wood Products Total</tspan><tspan xml:space="preserve" dy="1em" x="1">(51.2%)</tspan></text></g></g><g class="edgeLabel" transform="translate(957.59765625,1334)" style="opacity: 1;"><g transform="translate(-79.765625,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">Power and Heat Products</tspan><tspan xml:space="preserve" dy="1em" x="1">Total</tspan><tspan xml:space="preserve" dy="1em" x="1">(32.3%)</tspan></text></g></g><g class="edgeLabel" transform="translate(549.55078125,1152)" style="opacity: 1;"><g transform="translate(-72.8671875,-15)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">Sawnwood Mix Bavaria</tspan><tspan xml:space="preserve" dy="1em" x="1">(39.0%)</tspan></text></g></g><g class="edgeLabel" transform="translate(524.26171875,970)" style="opacity: 1;"><g transform="translate(-47.578125,-15)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">Sawnwood Mix</tspan><tspan xml:space="preserve" dy="1em" x="1">(39.0%)</tspan></text></g></g><g class="edgeLabel" transform="translate(751.3515625,1152)" style="opacity: 1;"><g transform="translate(-64.4453125,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">0 Power from &gt;50kw</tspan><tspan xml:space="preserve" dy="1em" x="1">(Heizkraft)</tspan><tspan xml:space="preserve" dy="1em" x="1">(7.55%)</tspan></text></g></g><g class="edgeLabel" transform="translate(940.1328125,1152)" style="opacity: 1;"><g transform="translate(-59.390625,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">0 Heat from &gt;50kw</tspan><tspan xml:space="preserve" dy="1em" x="1">(Waermeerzeuger)</tspan><tspan xml:space="preserve" dy="1em" x="1">(4.75%)</tspan></text></g></g><g class="edgeLabel" transform="translate(1156.29296875,1152)" style="opacity: 1;"><g transform="translate(-61.1953125,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">Private Combustion</tspan><tspan xml:space="preserve" dy="1em" x="1">&lt;50kw Bavaria</tspan><tspan xml:space="preserve" dy="1em" x="1">(20.0%)</tspan></text></g></g><g class="edgeLabel" transform="translate(1169.51171875,970)" style="opacity: 1;"><g transform="translate(-74.4140625,-15)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">Mixed Logs Mix Bavaria</tspan><tspan xml:space="preserve" dy="1em" x="1">(17.6%)</tspan></text></g></g><g class="edgeLabel" transform="translate(1144.23046875,788)" style="opacity: 1;"><g transform="translate(-49.1328125,-15)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">Mixed Logs Mix</tspan><tspan xml:space="preserve" dy="1em" x="1">(17.6%)</tspan></text></g></g><g class="edgeLabel" transform="translate(1038.54296875,557)" style="opacity: 1;"><g transform="translate(-56.0234375,-29)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">heat, central or</tspan><tspan xml:space="preserve" dy="1em" x="1">small-scale, other</tspan><tspan xml:space="preserve" dy="1em" x="1">than natural gas</tspan><tspan xml:space="preserve" dy="1em" x="1">(11.9%)</tspan></text></g></g><g class="edgeLabel" transform="translate(1256.28515625,557)" style="opacity: 1;"><g transform="translate(-56.0234375,-29)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">heat, central or</tspan><tspan xml:space="preserve" dy="1em" x="1">small-scale, other</tspan><tspan xml:space="preserve" dy="1em" x="1">than natural gas</tspan><tspan xml:space="preserve" dy="1em" x="1">(4.23%)</tspan></text></g></g><g class="edgeLabel" transform="translate(158.390625,1152)" style="opacity: 1;"><g transform="translate(-71.6953125,-15)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">Cardboard Mix Bavaria</tspan><tspan xml:space="preserve" dy="1em" x="1">(5.72%)</tspan></text></g></g><g class="edgeLabel" transform="translate(330.90625,1152)" style="opacity: 1;"><g transform="translate(-51.2578125,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">Graphical Paper</tspan><tspan xml:space="preserve" dy="1em" x="1">Mix Bavaria</tspan><tspan xml:space="preserve" dy="1em" x="1">(8.09%)</tspan></text></g></g><g class="edgeLabel" transform="translate(1051.48828125,340)" style="opacity: 1;"><g transform="translate(-68.96875,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">cleft timber, measured</tspan><tspan xml:space="preserve" dy="1em" x="1">as dry mass</tspan><tspan xml:space="preserve" dy="1em" x="1">(11.4%)</tspan></text></g></g><g class="edgeLabel" transform="translate(1051.48828125,144)" style="opacity: 1;"><g transform="translate(-68.96875,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">cleft timber, measured</tspan><tspan xml:space="preserve" dy="1em" x="1">as dry mass</tspan><tspan xml:space="preserve" dy="1em" x="1">(4.16%)</tspan></text></g></g><g class="edgeLabel" transform="translate(330.90625,970)" style="opacity: 1;"><g transform="translate(-51.2578125,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">Graphical Paper</tspan><tspan xml:space="preserve" dy="1em" x="1">Mix</tspan><tspan xml:space="preserve" dy="1em" x="1">(8.09%)</tspan></text></g></g><g class="edgeLabel" transform="translate(760.5546875,970)" style="opacity: 1;"><g transform="translate(-73.6484375,-15)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">2 Power Steam Bavaria</tspan><tspan xml:space="preserve" dy="1em" x="1">(4.78%)</tspan></text></g></g><g class="edgeLabel" transform="translate(133.109375,970)" style="opacity: 1;"><g transform="translate(-46.4140625,-15)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">Cardboard Mix</tspan><tspan xml:space="preserve" dy="1em" x="1">(5.72%)</tspan></text></g></g><g class="edgeLabel" transform="translate(739.1328125,788)" style="opacity: 1;"><g transform="translate(-52.2265625,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">2 electricity, high</tspan><tspan xml:space="preserve" dy="1em" x="1">voltage</tspan><tspan xml:space="preserve" dy="1em" x="1">(4.78%)</tspan></text></g></g><g class="edgeLabel" transform="translate(739.546875,557)" style="opacity: 1;"><g transform="translate(-52.640625,-29)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">wood chips, wet,</tspan><tspan xml:space="preserve" dy="1em" x="1">measured as dry</tspan><tspan xml:space="preserve" dy="1em" x="1">mass</tspan><tspan xml:space="preserve" dy="1em" x="1">(4.78%)</tspan></text></g></g><g class="edgeLabel" transform="translate(941.3125,970)" style="opacity: 1;"><g transform="translate(-60.5703125,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">1 Heat Wood Chips</tspan><tspan xml:space="preserve" dy="1em" x="1">Mix Bavaria</tspan><tspan xml:space="preserve" dy="1em" x="1">(4.33%)</tspan></text></g></g><g class="edgeLabel" transform="translate(935.4765625,788)" style="opacity: 1;"><g transform="translate(-54.734375,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">Heat Wood Chips</tspan><tspan xml:space="preserve" dy="1em" x="1">Forest Mix</tspan><tspan xml:space="preserve" dy="1em" x="1">(4.33%)</tspan></text></g></g><g class="edgeLabel" transform="translate(1269.23046875,340)" style="opacity: 1;"><g transform="translate(-68.96875,-22)" class="label"><text><tspan xml:space="preserve" dy="1em" x="1">cleft timber, measured</tspan><tspan xml:space="preserve" dy="1em" x="1">as dry mass</tspan><tspan xml:space="preserve" dy="1em" x="1">(4.23%)</tspan></text></g></g></g><g class="nodes"><g class="node demand" id="09f0b23a200b4a8d8b0fca813721a5aa" transform="translate(471.68359375,1425)" style="opacity: 1;"><rect rx="0" ry="0" x="-90.4921875" y="-39" width="180.984375" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-80.4921875,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">0 Wood Based Products</tspan><tspan xml:space="preserve" dy="1em" x="1">Total</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="efec900e3558434abde7d3ee68e11d55" transform="translate(178.171875,1243)" style="opacity: 1;"><rect rx="0" ry="0" x="-74.984375" y="-39" width="149.96875" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-64.984375,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">Paper Products Total</tspan><tspan xml:space="preserve" dy="1em" x="1">2.1</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="511f4df88e8746c28eba4ba9a6089b0f" transform="translate(471.68359375,1243)" style="opacity: 1;"><rect rx="0" ry="0" x="-74.9609375" y="-32" width="149.921875" height="64" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-64.9609375,-22)"><text><tspan xml:space="preserve" dy="1em" x="1">Wood Products Total</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="5bc8cb7fa3604fd78f2611f413afc526" transform="translate(872.83203125,1243)" style="opacity: 1;"><rect rx="0" ry="0" x="-89.765625" y="-39" width="179.53125" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-79.765625,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">Power and Heat Products</tspan><tspan xml:space="preserve" dy="1em" x="1">Total</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="b2fe05cc140e46d295f7f8f64470f0c6" transform="translate(471.68359375,1061)" style="opacity: 1;"><rect rx="0" ry="0" x="-82.8671875" y="-32" width="165.734375" height="64" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-72.8671875,-22)"><text><tspan xml:space="preserve" dy="1em" x="1">Sawnwood Mix Bavaria</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="418fc266bc2640579ec524ed7e47a899_copy1" transform="translate(471.68359375,879)" style="opacity: 1;"><rect rx="0" ry="0" x="-57.578125" y="-32" width="115.15625" height="64" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-47.578125,-22)"><text><tspan xml:space="preserve" dy="1em" x="1">Sawnwood Mix</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="00f4c1351d3a4558885541f3ca11ec18" transform="translate(681.90625,1061)" style="opacity: 1;"><rect rx="0" ry="0" x="-74.4453125" y="-39" width="148.890625" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-64.4453125,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">0 Power from &gt;50kw</tspan><tspan xml:space="preserve" dy="1em" x="1">(Heizkraft)</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="8accad37018b4ffda54a432acf250881" transform="translate(875.7421875,1061)" style="opacity: 1;"><rect rx="0" ry="0" x="-69.390625" y="-39" width="138.78125" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-59.390625,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">0 Heat from &gt;50kw</tspan><tspan xml:space="preserve" dy="1em" x="1">(Waermeerzeuger)</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="2c1d28103469483798a59be8dd880504" transform="translate(1090.09765625,1061)" style="opacity: 1;"><rect rx="0" ry="0" x="-71.1953125" y="-39" width="142.390625" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-61.1953125,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">Private Combustion</tspan><tspan xml:space="preserve" dy="1em" x="1">&lt;50kw Bavaria</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="30fc432901e240ac90d50e02462167eb" transform="translate(1090.09765625,879)" style="opacity: 1;"><rect rx="0" ry="0" x="-84.4140625" y="-32" width="168.828125" height="64" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-74.4140625,-22)"><text><tspan xml:space="preserve" dy="1em" x="1">Mixed Logs Mix Bavaria</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="af8a0f272e4e42358e932581056c0880" transform="translate(1090.09765625,676)" style="opacity: 1;"><rect rx="0" ry="0" x="-59.1328125" y="-32" width="118.265625" height="64" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-49.1328125,-22)"><text><tspan xml:space="preserve" dy="1em" x="1">Mixed Logs Mix</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="b51d5233c8a1e022d452d6b02e4a2309" transform="translate(977.51953125,445)" style="opacity: 1;"><rect rx="0" ry="0" x="-71.9765625" y="-46" width="143.953125" height="92" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-61.9765625,-36)"><text><tspan xml:space="preserve" dy="1em" x="1">heat production,</tspan><tspan xml:space="preserve" dy="1em" x="1">mixed logs, at wood</tspan><tspan xml:space="preserve" dy="1em" x="1">heater 6kW</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="851aa24fafc75df137a3b33cd11820c0_copy1" transform="translate(1195.26171875,445)" style="opacity: 1;"><rect rx="0" ry="0" x="-95.765625" y="-53" width="191.53125" height="106" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-85.765625,-43)"><text><tspan xml:space="preserve" dy="1em" x="1">heat production,</tspan><tspan xml:space="preserve" dy="1em" x="1">mixed logs, at wood</tspan><tspan xml:space="preserve" dy="1em" x="1">heater 6kW, state-of-the-art</tspan><tspan xml:space="preserve" dy="1em" x="1">2014</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="7815b9dfcfce45c786da527b3953f686" transform="translate(81.6953125,1061)" style="opacity: 1;"><rect rx="0" ry="0" x="-81.6953125" y="-32" width="163.390625" height="64" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-71.6953125,-22)"><text><tspan xml:space="preserve" dy="1em" x="1">Cardboard Mix Bavaria</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="9bbb0481faa8422a97e2ee992f1a050e" transform="translate(274.6484375,1061)" style="opacity: 1;"><rect rx="0" ry="0" x="-61.2578125" y="-39" width="122.515625" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-51.2578125,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">Graphical Paper</tspan><tspan xml:space="preserve" dy="1em" x="1">Mix Bavaria</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="ac2706c6e4646657d24f5b7b841bdde2" transform="translate(977.51953125,242)" style="opacity: 1;"><rect rx="0" ry="0" x="-64.6875" y="-46" width="129.375" height="92" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-54.6875,-36)"><text><tspan xml:space="preserve" dy="1em" x="1">market for cleft</tspan><tspan xml:space="preserve" dy="1em" x="1">timber, measured</tspan><tspan xml:space="preserve" dy="1em" x="1">as dry mass</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="289eaaf5e6f8ef0f5df16e297e913692" transform="translate(977.51953125,46)" style="opacity: 1;"><rect rx="0" ry="0" x="-71.3671875" y="-46" width="142.734375" height="92" style="fill: rgb(255, 244, 244);"/><g class="label" transform="translate(0,0)"><g transform="translate(-61.3671875,-36)"><text><tspan xml:space="preserve" dy="1em" x="1">hardwood forestry,</tspan><tspan xml:space="preserve" dy="1em" x="1">beech, sustainable</tspan><tspan xml:space="preserve" dy="1em" x="1">forest management</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(4%)</tspan></text></g></g></g><g class="node production" id="54f1d7f706a4452dba66d8209a76215e" transform="translate(274.6484375,879)" style="opacity: 1;"><rect rx="0" ry="0" x="-61.2578125" y="-39" width="122.515625" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-51.2578125,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">Graphical Paper</tspan><tspan xml:space="preserve" dy="1em" x="1">Mix</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="c03d9568f9be4e8582303e41328cfb51" transform="translate(681.90625,879)" style="opacity: 1;"><rect rx="0" ry="0" x="-70.8671875" y="-39" width="141.734375" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-60.8671875,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">2 Power (and Heat)</tspan><tspan xml:space="preserve" dy="1em" x="1">Steam Bavaria</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="af4ea45bbff64990a4db9b3a67194c31" transform="translate(81.6953125,879)" style="opacity: 1;"><rect rx="0" ry="0" x="-56.4140625" y="-32" width="112.828125" height="64" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-46.4140625,-22)"><text><tspan xml:space="preserve" dy="1em" x="1">Cardboard Mix</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="6dc06a5b5b3bf9175ca11fd519e30a0b_copy2" transform="translate(681.90625,676)" style="opacity: 1;"><rect rx="0" ry="0" x="-73.5390625" y="-60" width="147.078125" height="120" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-63.5390625,-50)"><text><tspan xml:space="preserve" dy="1em" x="1">2 heat and power</tspan><tspan xml:space="preserve" dy="1em" x="1">co-generation, wood</tspan><tspan xml:space="preserve" dy="1em" x="1">chips, 6667 kW,</tspan><tspan xml:space="preserve" dy="1em" x="1">state-of-the-art</tspan><tspan xml:space="preserve" dy="1em" x="1">2014</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="485c39270d3568d82b9b61e9823b4978" transform="translate(681.90625,445)" style="opacity: 1;"><rect rx="0" ry="0" x="-76.25" y="-46" width="152.5" height="92" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-66.25,-36)"><text><tspan xml:space="preserve" dy="1em" x="1">market for wood</tspan><tspan xml:space="preserve" dy="1em" x="1">chips, wet, measured</tspan><tspan xml:space="preserve" dy="1em" x="1">as dry mass</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="2e44bdc787924474be93877c259fb135" transform="translate(875.7421875,879)" style="opacity: 1;"><rect rx="0" ry="0" x="-70.5703125" y="-39" width="141.140625" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-60.5703125,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">1 Heat Wood Chips</tspan><tspan xml:space="preserve" dy="1em" x="1">Mix Bavaria</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node production" id="d96f4ef4831d45a1ae170d0a6235a67d" transform="translate(875.7421875,676)" style="opacity: 1;"><rect rx="0" ry="0" x="-64.734375" y="-39" width="129.46875" height="78" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-54.734375,-29)"><text><tspan xml:space="preserve" dy="1em" x="1">Heat Wood Chips</tspan><tspan xml:space="preserve" dy="1em" x="1">Forest Mix</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g><g class="node market" id="2329bd4a6d481047943e294b3e3130c3" transform="translate(1195.26171875,242)" style="opacity: 1;"><rect rx="0" ry="0" x="-64.6875" y="-46" width="129.375" height="92" style="fill: rgb(255, 255, 255);"/><g class="label" transform="translate(0,0)"><g transform="translate(-54.6875,-36)"><text><tspan xml:space="preserve" dy="1em" x="1">market for cleft</tspan><tspan xml:space="preserve" dy="1em" x="1">timber, measured</tspan><tspan xml:space="preserve" dy="1em" x="1">as dry mass</tspan><tspan xml:space="preserve" dy="1em" x="1">DE</tspan><tspan xml:space="preserve" dy="1em" x="1">(0%)</tspan></text></g></g></g></g></g></g></g></svg>
